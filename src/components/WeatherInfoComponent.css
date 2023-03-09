@@ -61,8 +61,12 @@
 
 @media (max-width: 426px) {
     .weather .weather-week .weahter-day{
-        min-width: 45%;
+        min-width: 50%;
     } 
+    .weather .weather-info .weather-temps {
+        width: 90%;
+        
+    }
 }
 
 .weather .weather-week .weahter-day p{
