@@ -1,0 +1,49 @@
+.weather-search {
+    padding: 20px;
+}
+
+.weather-search .weather-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.weather-search .weather-form .weather-form_input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255, .9);
+    background-color: transparent;
+    color: rgb(255, 255, 255, .9);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+.weather-search .weather-form .weather-form_btn {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .9);
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.weather-search .weather-form .weather-form_btn:hover {
+    background-color: rgb(255, 255, 255, .3);
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: 100%;
+        height: 700px;
+        background: rgb(255, 255, 255, 0.2);
+        border-radius: 7px;
+        box-shadow: 1px 1px 2px #fff, -1px -1px 2px #fff;
+    }
+    .weather-search .weather-form .weather-form_input {
+        font-size: 1rem;
+    }
+
+    .weather-search .weather-form .weather-form_btn {
+        padding: 4px;
+    }
+}
